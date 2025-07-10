@@ -6,7 +6,7 @@
 
 struct MemBlock {
 	unsigned long size;
-	int is_free;
+	unsigned char is_free;
 	struct MemBlock *next;
 };
 
